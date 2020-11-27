@@ -1,0 +1,90 @@
+
+---
+#https://ibm.github.io/ansible-power-aix/modules/emgr.html
+
+- name: <LIST/IFIX> List interim fix on the system
+  emgr:
+    action: list
+  regist: fix_list
+
+
+ - name: <REMOVE/IFIX> Remove ifix with label IJ11544s0a
+    emgr:
+      label: "{{ items }}"
+      state: absent
+    with_items:
+     - fix_list
+
+#https://ibm.github.io/ansible-power-aix/modules/installp.html
+
+- name: <Commit/software> Commit all software  to commit applied updates.
+  ibm.power_aix.installp:
+    action: commit
+
+  
+#https://docs.ansible.com/ansible/latest/collections/community/general/installp_module.html
+
+#https://ibm.github.io/ansible-power-aix/modules/mount.html
+
+
+- name: <Mount/NIM> Mount filesystems provided by a node"
+  ibm.power_aix.mount:
+    node:  "{{ NFS_nim_master_71 }}"
+    mount_dir: /mnt
+
+#https://ibm.github.io/ansible-power-aix/modules.html
+
+
+- name: <INSTALL/AIX> AIX Install Bundle package  for AIX 7.1
+  community.general.installp:
+    name: all
+    repository_path: "{{ NFS_AIX_Bundle_71 }}" 
+    accept_license: yes
+    extend_fs: yes
+    state: present
+    verbosity: 3
+  when: ansible_distribution == 'AIX' and ansible_distribution_version == '7.1'
+
+
+
+- name: <INSTALL/JAVA> Install JAVA package  for AIX 7.1
+  community.general.installp:
+    name: all
+    repository_path: "{{ NFS_AIX_JAVA_71 }}" 
+    accept_license: yes
+    extend_fs: yes
+    state: present
+    verbosity: 3
+  when: ansible_distribution == 'AIX' and ansible_distribution_version == '7.1'
+
+
+
+- name: <INSTALL/SSL/SSH> Install SSL SSH  package  for AIX 7.1
+  community.general.installp:
+    name: all
+    repository_path: "{{ NFS_AIX_SSL_SSH_71 }}"
+    accept_license: yes
+    extend_fs: yes
+    state: present
+    verbosity: 3
+  when: ansible_distribution == 'AIX' and ansible_distribution_version == '7.1'
+
+  
+
+- name: Install ifix package from file generated with epkg
+  emgr:
+    action: install
+    ifix_package: "{{ NFS_AIX_Ifix_dir_71 }} {{ NFS_AIX_Ifix_pacages_71 }}" 
+    working_dir: "{{ NFS_AIX_Ifix_dir_71 }}"
+    from_epkg: yes
+    extend_fs: yes
+    verbosity: 3
+  when: ansible_distribution == 'AIX' and ansible_distribution_version == '7.1'
+
+
+- name: <Umount/NIM> Unmount remote filesystems
+  ibm.power_aix.mount:
+   state: umount
+   mount_dir: /mnt
+   force: True
+... 

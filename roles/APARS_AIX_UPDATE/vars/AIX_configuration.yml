@@ -1,0 +1,38 @@
+
+################################################################
+# # Systemp AIX 7.1 - vars  Configuration 
+###############################################################
+
+# Example Add mnt/ nim master  
+NFS_nim_master_71: ["opção1", "opção2"]
+# Example Add Bundle repositories 
+NFS_AIX_Bundle_71: ["opção1", "opção2"]
+# Example Add java repositories 
+NFS_AIX_JAVA_71: ["opção1", "opção2"]
+# Example Add SSH SSL repositories 
+NFS_AIX_SSL_SSH_71: ["opção1", "opção2"]
+# Example Add Ifix repositories 
+NFS_AIX_Ifix_dir_71: ["opção1", "opção2"]
+# Example Add Ifix repositories 
+NFS_AIX_Ifix_pacages_71: ["opção1", "opção2"]
+###############################################################
+
+################################################################
+# Systemp AIX 7.2 - vars  Configuration 
+###############################################################
+
+# Example Add repositories to yum repolist 
+# Example Add mnt/ nim master  
+NFS_nim_master_7.2: ["opção1", "opção2"] 
+# Example Add Bundle repositories 
+NFS_AIX_Bundle_7.2: ["opção1", "opção2"]
+# Example Add java repositories 
+NFS_AIX_JAVA_7.2: ["opção1", "opção2"]
+# Example Add SSH SSL repositories 
+NFS_AIX_SSL_SSH_7.2: ["opção1", "opção2"]
+# Example Add Ifix repositories 
+NFS_AIX_Ifix_7.2: ["opção1", "opção2"]
+# Example Add Ifix repositories 
+NFS_AIX_Ifix_pacages_72: ["opção1", "opção2"]
+###############################################################
+
