@@ -1,0 +1,7 @@
+---
+- name: Ansible | APARs Automation for AIX
+  hosts: all
+  become: yes
+  remote_user: 
+  roles:
+    - APARS_AIX_UPDATE
