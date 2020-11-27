@@ -1,0 +1,15 @@
+---
+galaxy_info:
+  author: "Joao Miguel Leitao"
+  description: Update AIX Systems 
+  company: 
+  license: LGPL-3.0
+  min_ansible_version: 1.0
+  platforms:
+  - name: AIX
+    versions:
+      - 7.1
+      - 7.2
+  galaxy_tags:
+    - system
+dependencies: [n/A]
