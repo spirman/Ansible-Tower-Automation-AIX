@@ -5,15 +5,15 @@ https://img.shields.io/badge/Status-Development-yellow.svg
 
 TARS (Sistema Avançado de Reconhecimento e Suporte) é um assistente pessoal inteligente modular que combina automação, geração de código e capacidades de IA através de interface por voz e terminal.
 
-🌟 Características Principais
-🎤 Interface por Voz: Ativação por comando de voz com reconhecimento de fala
-⌨️ Interface por Terminal: Comandos textuais para automação rápida
-🤖 Múltiplos Módulos: Sistema modular extensível com diversas funcionalidades
-🌐 Tempo Real: Informações meteorológicas em tempo real para qualquer cidade
-💻 Geração de Código: Suporte a múltiplas linguagens de programação
-🔧 Automação DevOps: Ansible, Docker, Cron e scripts de automação
-📦 Módulos Disponíveis
-📋 Módulo Base
+- 🌟 Características Principais
+- 🎤 Interface por Voz: Ativação por comando de voz com reconhecimento de fala
+- ⌨️ Interface por Terminal: Comandos textuais para automação rápida
+- 🤖 Múltiplos Módulos: Sistema modular extensível com diversas funcionalidades
+- 🌐 Tempo Real: Informações meteorológicas em tempo real para qualquer cidade
+- 💻 Geração de Código: Suporte a múltiplas linguagens de programação
+- 🔧 Automação DevOps: Ansible, Docker, Cron e scripts de automação
+- 📦 Módulos Disponíveis
+- 📋 Módulo Base
 hora - Hora e data atual
 clima [cidade] - Tempo meteorológico em tempo real
 sistema - Informações do sistema
