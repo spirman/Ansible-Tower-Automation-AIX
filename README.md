@@ -7,76 +7,48 @@ TARS (Sistema Avançado de Reconhecimento e Suporte) é um assistente pessoal in
 
 🌟 Características Principais
 🎤 Interface por Voz: Ativação por comando de voz com reconhecimento de fala
-
 ⌨️ Interface por Terminal: Comandos textuais para automação rápida
-
 🤖 Múltiplos Módulos: Sistema modular extensível com diversas funcionalidades
-
 🌐 Tempo Real: Informações meteorológicas em tempo real para qualquer cidade
-
 💻 Geração de Código: Suporte a múltiplas linguagens de programação
-
 🔧 Automação DevOps: Ansible, Docker, Cron e scripts de automação
-
 📦 Módulos Disponíveis
 📋 Módulo Base
 hora - Hora e data atual
-
 clima [cidade] - Tempo meteorológico em tempo real
-
 sistema - Informações do sistema
-
 wikipedia [tópico] - Busca na Wikipedia
-
 screenshot - Captura de tela
-
 ip - Informações de rede
-
 🤖 Automação de Sistema
 otimizar sistema - Limpeza e otimização
-
 monitorar recursos - Monitoramento em tempo real
-
 backup documentos - Backup automático
-
 organizar desktop - Organização de arquivos
-
 🌐 Automação Web
 abrir email - Acesso rápido ao email
-
 pesquisar google [termo] - Pesquisa no Google
-
 download youtube [url] - Download de vídeos
-
 monitorar site [url] - Monitoramento de websites
-
 💻 Geração de Código
 python [descrição] - Gera código Python
-
 javascript [descrição] - Gera código JavaScript
-
 html [descrição] - Gera HTML/CSS
-
 sql [descrição] - Gera consultas SQL
-
 bash [descrição] - Gera scripts Bash
-
 🛠️ DevOps & Automação
 ansible playbook [descrição] - Cria playbooks Ansible
-
 cron job [descrição] - Gera entradas no crontab
-
 docker compose [app] - Gera docker-compose.yml
-
 script backup - Scripts de backup automático
-
 🚀 Instalação
 Pré-requisitos
 bash
 # Sistema Debian/Ubuntu
+```sh
 sudo apt update
 sudo apt install python3-pip portaudio19-dev espeak espeak-data libespeak1 python3-pyaudio
-
+```
 # Instalar Ollama (para AI)
 ```sh
   curl -fsSL https://ollama.ai/install.sh | sh
