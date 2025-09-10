@@ -1,7 +1,5 @@
-🤖 TARS - Sistema Avançado de Automação e IA
-https://img.shields.io/badge/Python-3.8+-blue.svg
-https://img.shields.io/badge/License-MIT-green.svg
-https://img.shields.io/badge/Status-Development-yellow.svg
+# 🤖 TARS - Sistema Avançado de Automação e IA
+
 
 TARS (Sistema Avançado de Reconhecimento e Suporte) é um assistente pessoal inteligente modular que combina automação, geração de código e capacidades de IA através de interface por voz e terminal.
 
@@ -13,37 +11,39 @@ TARS (Sistema Avançado de Reconhecimento e Suporte) é um assistente pessoal in
 - 💻 Geração de Código: Suporte a múltiplas linguagens de programação
 - 🔧 Automação DevOps: Ansible, Docker, Cron e scripts de automação
 - 📦 Módulos Disponíveis
+  
 - 📋 Módulo Base
-hora - Hora e data atual
-clima [cidade] - Tempo meteorológico em tempo real
-sistema - Informações do sistema
-wikipedia [tópico] - Busca na Wikipedia
-screenshot - Captura de tela
-ip - Informações de rede
-🤖 Automação de Sistema
-otimizar sistema - Limpeza e otimização
-monitorar recursos - Monitoramento em tempo real
-backup documentos - Backup automático
-organizar desktop - Organização de arquivos
-🌐 Automação Web
-abrir email - Acesso rápido ao email
-pesquisar google [termo] - Pesquisa no Google
-download youtube [url] - Download de vídeos
-monitorar site [url] - Monitoramento de websites
-💻 Geração de Código
-python [descrição] - Gera código Python
-javascript [descrição] - Gera código JavaScript
-html [descrição] - Gera HTML/CSS
-sql [descrição] - Gera consultas SQL
-bash [descrição] - Gera scripts Bash
-🛠️ DevOps & Automação
-ansible playbook [descrição] - Cria playbooks Ansible
-cron job [descrição] - Gera entradas no crontab
-docker compose [app] - Gera docker-compose.yml
-script backup - Scripts de backup automático
-🚀 Instalação
-Pré-requisitos
-bash
+### hora - Hora e data atual
+### clima [cidade] - Tempo meteorológico em tempo real
+### sistema - Informações do sistema
+### wikipedia [tópico] - Busca na Wikipedia
+### screenshot - Captura de tela
+### ip - Informações de rede
+# 🤖 Automação de Sistema
+### otimizar sistema - Limpeza e otimização
+### monitorar recursos - Monitoramento em tempo real
+### backup documentos - Backup automático
+### organizar desktop - Organização de arquivos
+# 🌐 Automação Web
+### abrir email - Acesso rápido ao email
+### pesquisar google [termo] - Pesquisa no Google
+### download youtube [url] - Download de vídeos
+### monitorar site [url] - Monitoramento de websites
+# 💻 Geração de Código
+### python [descrição] - Gera código Python
+### javascript [descrição] - Gera código JavaScript
+### html [descrição] - Gera HTML/CSS
+### sql [descrição] - Gera consultas SQL
+### bash [descrição] - Gera scripts Bash
+# 🛠️ DevOps & Automação
+### ansible playbook [descrição] - Cria playbooks Ansible
+### cron job [descrição] - Gera entradas no crontab
+### docker compose [app] - Gera docker-compose.yml
+### script backup - Scripts de backup automático
+# 🚀 Instalação
+### Pré-requisitos
+###bash
+
 # Sistema Debian/Ubuntu
 ```sh
 sudo apt update
