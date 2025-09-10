@@ -12,13 +12,14 @@ TARS (Sistema Avançado de Reconhecimento e Suporte) é um assistente pessoal in
 - 🔧 Automação DevOps: Ansible, Docker, Cron e scripts de automação
 - 📦 Módulos Disponíveis
   
-- 📋 Módulo Base
+# 📋 Módulo Base
 ### hora - Hora e data atual
 ### clima [cidade] - Tempo meteorológico em tempo real
 ### sistema - Informações do sistema
 ### wikipedia [tópico] - Busca na Wikipedia
 ### screenshot - Captura de tela
 ### ip - Informações de rede
+
 # 🤖 Automação de Sistema
 ### otimizar sistema - Limpeza e otimização
 ### monitorar recursos - Monitoramento em tempo real
@@ -42,7 +43,7 @@ TARS (Sistema Avançado de Reconhecimento e Suporte) é um assistente pessoal in
 ### script backup - Scripts de backup automático
 # 🚀 Instalação
 ### Pré-requisitos
-###bash
+bash
 
 # Sistema Debian/Ubuntu
 ```sh
