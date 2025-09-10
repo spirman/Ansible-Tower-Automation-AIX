@@ -167,64 +167,63 @@ TARS_Modular/
     └── core_ai.py        # Núcleo de IA
 ```
 🔧 Configuração
+```sh
 Arquivo .env
 env
 # API Keys
 OPENWEATHER_API_KEY=sua_chave_openweather
-
+```
 # Configurações do Sistema
+```sh
 TRIGGER_WORD=tars
 LLM_MODEL=qwen3:1.7b
-
+```
 # Configurações de Áudio
+```sh
 TTS_RATE=160
 TTS_VOLUME=0.9
 Personalização
+```
 Você pode personalizar o TARS editando:
-
 Configurações gerais: config.py
-
 Comandos de voz: utils/voice_utils.py
-
 Novos módulos: modules/novo_modulo.py
-
 Respostas personalizadas: Edite os métodos nos módulos
 
 🐛 Solução de Problemas
 Erro de Áudio
+```sh
 bash
 # Se houver problemas com microfone:
 sudo apt install portaudio19-dev python3-pyaudio
 Erro de API Weather
+```
+```sh
 bash
 # Se o clima não funcionar:
 # 1. Verifique se la API key está correta no .env
 # 2. Teste a conexão com a API:
 curl "http://api.openweathermap.org/data/2.5/weather?q=Lisbon&appid=sua_chave"
 Problemas com Ollama
+```
+```sh
 bash
 # Verifique se o Ollama está rodando:
 ollama serve
-
+```
 # Baixe o modelo correto:
+```sh
 ollama pull qwen3:1.7b
+```
 📋 Roadmap
 ✅ Interface modular completa
-
 ✅ Suporte a múltiplos idiomas
-
 ✅ Integração com APIs externas
-
 🔄 Dashboard web integrado
-
 🔄 Plugins e extensões
-
 🔄 Integração com calendário
-
 🔄 Reconhecimento de padrões
-
 🔄 Aprendizado contínuo
-
 🤝 Contribuindo
 Contribuições são bem-vindas! Siga estos passos:
 
