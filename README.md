@@ -78,25 +78,30 @@ sudo apt update
 sudo apt install python3-pip portaudio19-dev espeak espeak-data libespeak1 python3-pyaudio
 
 # Instalar Ollama (para AI)
-curl -fsSL https://ollama.ai/install.sh | sh
-ollama pull qwen3:1.7b
-Instalação do TARS
-Clone o repositório
+```sh
+  curl -fsSL https://ollama.ai/install.sh | sh
+  ollama pull qwen3:1.7b
+  Instalação do TARS
+   Clone o repositório
+   ```
 
+```sh
 bash
 git clone https://github.com/seu-usuario/TARS_Modular.git
 cd TARS_Modular
 Instale as dependências Python
-
+  ```
+```sh
 bash
 pip install -r requirements.txt
 Configure as variáveis de ambiente
-
+ ```
+```sh
 bash
 cp .env.example .env
 # Edite o arquivo .env com suas configurações
 Configure a API do OpenWeather (opcional para clima)
-
+```
 Acesse: OpenWeatherMap
 
 Crie uma conta gratuita e obtenha sua API key
