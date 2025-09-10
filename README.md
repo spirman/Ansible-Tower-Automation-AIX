@@ -137,7 +137,7 @@ python3 main.py
 # Escolha a opção 1 para modo voz
 # Diga "TARS" para ativar, depois seu comando
 🏗️ Estrutura do Projeto
-text
+```sh
 TARS_Modular/
 ├── main.py                 # Arquivo principal
 ├── config.py              # Configurações do sistema
@@ -165,6 +165,7 @@ TARS_Modular/
     ├── docker_module.py  # Docker
     ├── scripts_module.py # Scripts
     └── core_ai.py        # Núcleo de IA
+```
 🔧 Configuração
 Arquivo .env
 env
