@@ -215,6 +215,7 @@ ollama serve
 ```sh
 ollama pull qwen3:1.7b
 ```
+```sh
 📋 Roadmap
 ✅ Interface modular completa
 ✅ Suporte a múltiplos idiomas
@@ -226,7 +227,7 @@ ollama pull qwen3:1.7b
 🔄 Aprendizado contínuo
 🤝 Contribuindo
 Contribuições são bem-vindas! Siga estos passos:
-
+```
 Fork o projeto
 
 Crie uma branch para sua feature (git checkout -b feature/AmazingFeature)
